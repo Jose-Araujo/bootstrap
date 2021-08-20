@@ -57,7 +57,7 @@ function validaAssunto(){
 }
 
 function enviar(){
-    if(nomeOk == true && emailOk == true && assuntoOk == true){
+    if(nomeCompletoOk == true && emailOk == true && assuntoOk == true){
         alert('Formulário enviado com sucesso!')
     }else{
         alert('Preencha o formulário corretamente antes de enviar...')
